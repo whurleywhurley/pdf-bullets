@@ -1,6 +1,8 @@
 # pdf-bullets
 pdf analysis of air force forms
 
+Origin (and all the credit): https://github.com/EA-Pods-Team/pdf-bullets
+
 One of the most pointless and time-consuming things that Air Force officer and enlisted personnel do every year is bullet-writing. 
 
 Air Force personnel typically are required to write bullets for performance reports and award packages. 
