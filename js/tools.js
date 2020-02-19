@@ -207,13 +207,14 @@ class SaveTools extends React.PureComponent{
                 <div className="dropdown-menu" id="save-menu" role="menu" onMouseLeave={this.hoverOut}>
                     <div className="dropdown-content">
                         <a className="dropdown-item" onClick={this.onSave}>Cookie</a>
+                        <a className="dropdown-item" onClick={this.onExport}>JSON</a>
                     </div>
                 </div>
                 
                 <a style={{display:"none"}} download='settings.json' ref={this.exportRef}></a>
             </div>
-        )
-    };
+        );
+    }
 }
 class Logo extends React.PureComponent{
     render() {
