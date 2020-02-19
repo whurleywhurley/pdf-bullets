@@ -151,7 +151,7 @@ class InputTools extends React.PureComponent{
     }
 }
 // saving settings
-class SaveTools extends React.PureComponent{
+/*class SaveTools extends React.PureComponent{
     constructor(props){
         super(props);
         this.exportRef = React.createRef();
@@ -220,7 +220,7 @@ class SaveTools extends React.PureComponent{
             </div>
         );
     }
-}
+}*/
 class Logo extends React.PureComponent{
     render() {
         return (
