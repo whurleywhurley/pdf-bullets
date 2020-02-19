@@ -9,9 +9,7 @@ class AbbrTools extends React.PureComponent{
         this.fileInputRef = React.createRef();
     }
     importSampleAbbrs = ()=>{
-        this.importSampleAbbrs()
-    }
-/*        return new Promise((res,rej)=>{
+        return new Promise((res,rej)=>{
             const xhttp = new XMLHttpRequest();
             xhttp.responseType = 'blob';
             xhttp.onload = ()=>{
@@ -20,7 +18,7 @@ class AbbrTools extends React.PureComponent{
             xhttp.open('GET','./abbrs.xlsx',true);
             xhttp.send();
         }).then(this.getDataFromXLS);        
-    }*/
+    }
     importAbbrs = (e) => {
         
         if(!this.fileInputRef.current.value){
