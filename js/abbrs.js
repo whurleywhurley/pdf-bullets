@@ -18,6 +18,7 @@ class AbbrTools extends React.PureComponent{
             xhttp.open('GET','./abbrs.xlsx',true);
             xhttp.send();
         }).then(this.getDataFromXLS);        
+    this.importSampleAbbrs();
     }
     importAbbrs = (e) => {
         
