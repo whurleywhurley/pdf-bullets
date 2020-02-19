@@ -76,7 +76,7 @@ class ImportTools extends React.PureComponent{
         const current = this.state.hovering;
         this.setState({hovering:!current});
     }
-    /*render(){
+    render(){
         const menuState = this.state.hovering? "is-active": "";
         return( 
             <div className={"dropdown" + ' ' + menuState}>
@@ -99,7 +99,7 @@ class ImportTools extends React.PureComponent{
                 </div>
             </div>
         );
-    }*/
+    }
 }
 // form width, space optimization, select text
 class OutputTools extends React.PureComponent{
