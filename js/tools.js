@@ -195,7 +195,7 @@ class SaveTools extends React.PureComponent{
         const current = this.state.hovering;
         this.setState({hovering:!current});
     }
-    render(){
+    /*render(){
         const menuState = this.state.hovering? "is-active": "";
         return (
             <div className={'dropdown' + ' ' + menuState}>
@@ -219,7 +219,7 @@ class SaveTools extends React.PureComponent{
                 <a style={{display:"none"}} download='settings.json' ref={this.exportRef}></a>
             </div>
         );
-    }
+    }*/;
 }
 class Logo extends React.PureComponent{
     render() {
