@@ -94,7 +94,6 @@ class ImportTools extends React.PureComponent{
                 <div className="dropdown-menu" id="import-menu" role="menu" onMouseLeave={this.hoverOut}>
                     <div className="dropdown-content">
                         <a className="dropdown-item" onClick={this.inputClick('PDF')}>PDF</a>
-                        //<a className="dropdown-item" onClick={this.inputClick('JSON')}>JSON</a>
                     </div>
                 </div>
             </div>
