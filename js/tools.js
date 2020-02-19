@@ -193,26 +193,7 @@ class SaveTools extends React.PureComponent{
     render(){
         const menuState = this.state.hovering? "is-active": "";
         return (
-            <div className={'dropdown' + ' ' + menuState}>
-                <div className="dropdown-trigger">
-                    <div className="buttons has-addons">
-                        <button className="button" onClick={this.onSave}>Save </button>
-                        <button className="button" aria-haspopup="true" aria-controls="save-menu" >
-                            <span className="icon" onClick={this.toggleMenu} >
-                                <i className="fas fa-angle-down" aria-hidden="true"></i>
-                            </span> 
-                        </button>
-                    </div> 
-                </div>
-                <div className="dropdown-menu" id="save-menu" role="menu" onMouseLeave={this.hoverOut}>
-                    <div className="dropdown-content">
-                        <a className="dropdown-item" onClick={this.onSave}>Cookie</a>
-                        <a className="dropdown-item" onClick={this.onExport}>JSON</a>
-                    </div>
-                </div>
-                
-                <a style={{display:"none"}} download='settings.json' ref={this.exportRef}></a>
-            </div>
+            
         );
     }
 }
