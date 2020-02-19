@@ -82,7 +82,7 @@ class ImportTools extends React.PureComponent{
             <div className={"dropdown" + ' ' + menuState}>
                 <input type="file" onChange={this.importFile} style={{display:"none"}} ref={this.fileInputRef}></input>
                 <div className="dropdown-trigger">
-                    <div className="buttons has-addons" style={{display:"none"}}>
+                    <div className="buttons has-addons">
                         <button className="button" onClick={this.inputClick('PDF')}>Import</button>
                         <button className="button" onClick={this.toggleMenu}  aria-haspopup="true" aria-controls="import-menu" >
                             <span className="icon">
