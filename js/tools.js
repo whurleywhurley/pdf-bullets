@@ -190,7 +190,7 @@ class SaveTools extends React.PureComponent{
         const current = this.state.hovering;
         this.setState({hovering:!current});
     };
-    }
+//insert cut code here
 }
 class Logo extends React.PureComponent{
     render() {
