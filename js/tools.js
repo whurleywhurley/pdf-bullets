@@ -76,7 +76,7 @@ class ImportTools extends React.PureComponent{
         const current = this.state.hovering;
         this.setState({hovering:!current});
     }
-    render(){
+    /*render(){
         const menuState = this.state.hovering? "is-active": "";
         return( 
             <div className={"dropdown" + ' ' + menuState}>
@@ -98,7 +98,7 @@ class ImportTools extends React.PureComponent{
                     </div>
                 </div>
             </div>
-        );
+        );*/
     }
 }
 // form width, space optimization, select text
@@ -117,9 +117,9 @@ class OutputTools extends React.PureComponent{
             <div className="field is-grouped">
                 {/* if I want to group things together in a field, each subelement must have the control class name */}
                 <div className="control field has-addons">
-                    <div className="control has-icons-right">
-                        <input className="input" id="widthInput" type='number' min="100" max="500" step=".001" value={this.props.width.replace(/[a-zA-Z]/g,'')} onChange={this.props.onWidthChange}></input>
-                        <span className='icon is-right'>mm</span>
+                    //<div className="control has-icons-right">
+                        //<input className="input" id="widthInput" type='number' min="100" max="500" step=".001" value={this.props.width.replace(/[a-zA-Z]/g,'')} onChange={this.props.onWidthChange}></input>
+                        //<span className='icon is-right'>mm</span>
                     </div>
                     <div className="control buttons has-addons">
                         <a className={"button is-primary" + ' ' + (this.props.width==widthAWD?'':'is-outlined')}
