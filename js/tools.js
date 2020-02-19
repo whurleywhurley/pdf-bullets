@@ -190,12 +190,6 @@ class SaveTools extends React.PureComponent{
         const current = this.state.hovering;
         this.setState({hovering:!current});
     }
-    render(){
-        const menuState = this.state.hovering? "is-active": "";
-        return (
-            
-        );
-    }
 }
 class Logo extends React.PureComponent{
     render() {
