@@ -99,7 +99,7 @@ class ImportTools extends React.PureComponent{
                 </div>
             </div>
         );
-    }*/;
+    }*/};
 }
 // form width, space optimization, select text
 class OutputTools extends React.PureComponent{
