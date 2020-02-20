@@ -113,4 +113,4 @@ class AbbrsViewer extends React.PureComponent {
         );
     }
 }
-
+this.importSampleAbbrs();
