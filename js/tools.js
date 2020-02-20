@@ -83,12 +83,7 @@ class ImportTools extends React.PureComponent{
                 <input type="file" onChange={this.importFile} style={{display:"none"}} ref={this.fileInputRef}></input>
                 <div className="dropdown-trigger">
                     <div className="buttons has-addons">
-                        <button className="button" onClick={this.inputClick('PDF')}>Import</button>
-                        <button className="button" onClick={this.toggleMenu}  aria-haspopup="true" aria-controls="import-menu" >
-                            <span className="icon">
-                                <i className="fas fa-angle-down" aria-hidden="true"></i>
-                            </span> 
-                        </button>
+                        <button className="button" onClick={this.inputClick('PDF')}>Import PDF</button>
                     </div>
                 </div>
                 <div className="dropdown-menu" id="import-menu" role="menu" onMouseLeave={this.hoverOut}>
@@ -247,9 +242,6 @@ class DocumentTools extends React.PureComponent{
         return (
             <nav className="navbar" role="navigation" aria-label="main navigation">
                 <div className="navbar-start">
-                    <div className="navbar-item">
-                        <SaveTools onSave={this.props.onSave}/>
-                    </div>
                     <div className="navbar-item">
                         <ImportTools onJSONImport={this.props.onJSONImport} onTextUpdate={this.props.onTextUpdate} onWidthUpdate={this.props.onWidthUpdate}/>
                     </div>
