@@ -112,5 +112,4 @@ class AbbrsViewer extends React.PureComponent {
             </div>
         );
     }
-this.importSampleAbbrs();
 }
